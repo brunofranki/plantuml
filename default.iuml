@@ -1,4 +1,3 @@
-@startuml
 'Constant Definition
 !define FONTSERIF Helvetica
 !define FONTSANS Helvetica
@@ -9,14 +8,17 @@ skinparam shadowing false
 skinparam handwritten false
 skinparam backgroundColor transparent
 skinparam componentStyle uml2
-skinparam dpi 300
+skinparam dpi 150
 
 'Default'
 skinparam default{
   'Font Style
   FontColor Black
-  FontSize 9
-  FontStyle plain
+  FontSize 8
+  FontStyle normal
+
+  BackgroundColor #BCC8D9
+  BorderColor #6C8EBF
   
   'Other Style
   TextAlignment left
@@ -56,9 +58,9 @@ skinparam Arrow {
   FontSize 5
 
   'Color
-  Color #004C99
-  LollipopColor #004C99
-  Thickness 1
+  Color #999
+  LollipopColor #999
+  Thickness 2
   MessageAlignment center
 }
 
@@ -175,6 +177,16 @@ skinparam package {
   BackgroundColor White
   BorderColor Black
   BorderThickness 1
+}
+
+'Activity
+skinparam activity {
+  BackgroundColor #EDF3FC
+  BorderColor #6C8EBF
+  DiamondBackgroundColor #FFE6CC
+  DiamondBorderColor #D79B00
+  EndColor #82B366
+  StartColor #9673A6
 }
 
 'Actor

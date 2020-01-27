@@ -44,3 +44,7 @@ a {
 table thead, table tfoot {
     background: #ccd5e2;
 }
+
+.test {
+    background-color: black;
+}
